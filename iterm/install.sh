@@ -4,7 +4,6 @@
 #
 # This installs iterm2 with OhMyZsh
 
-# Check for Homebrew
 read -p "Do you wish to install iTerm2? [y/n]" yn
 case "$yn" in
     Y|y )
@@ -12,5 +11,6 @@ case "$yn" in
             echo "iTerm already installed";
         else
             brew cask install iterm2;
+            sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
         fi
 esac

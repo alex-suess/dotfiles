@@ -1,5 +1,4 @@
 # Sets reasonable macOS defaults.
-#
 # Run ./set-defaults.sh and you'll be good to go.
 
 # Disable press-and-hold for keys in favor of key repeat.
