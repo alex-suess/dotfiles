@@ -1,7 +1,5 @@
 #!/bin/sh
 #
-# iterm2
-#
 # This installs iterm2 with OhMyZsh
 
 read -p "Do you wish to install iTerm2? [y/n]" yn
