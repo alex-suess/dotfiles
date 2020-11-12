@@ -46,6 +46,24 @@ $ZSH/macos/set-defaults.sh
 # Install homebrew
 $ZSH/homebrew/install.sh 2>&1
 
+# Install iterm
+$ZSH/iterm/install.sh 2>&1
+
+# Install mysql
+$ZSH/mysql/install.sh 2>&1
+
+# Install redis
+$ZSH/redis/install.sh 2>&1
+
+# Install nvm/node
+$ZSH/npm/install.sh 2>&1
+
+# Install yarn
+$ZSH/yarn/install.sh 2>&1
+
+# Install composer
+$ZSH/composer/install.sh 2>&1
+
 # Upgrade homebrew
 echo "› brew update"
 brew update
